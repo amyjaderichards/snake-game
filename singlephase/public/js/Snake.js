@@ -60,7 +60,7 @@ export default class Snake {
         for (let index = this.body.length - 1; index > 0; index--) {
             this.body[index].x = this.body[index - 1].x;
             this.body[index].y = this.body[index - 1].y;
-        }
+        }</html>
         this.body[0].x = x;
         this.body[0].y = y;
 
